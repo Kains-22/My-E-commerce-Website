@@ -320,6 +320,9 @@ footer i {
 
 @media only screen and (max-width:769px) {
 
+    .featured {
+        height: 60vh;
+    }
 
     #menubar {
         display: block;
@@ -507,6 +510,11 @@ footer i {
 }
 
 @media only screen and (max-width:600px) {
+
+    .featured {
+        height: 60vh;
+    }
+
     .nav2-center img {
         width: 98px;
     }
@@ -520,8 +528,73 @@ footer i {
     .nav1 .left {
         flex-basis: 50%;
         letter-spacing: 3px;
-        font-size: 13px;
+        font-size: 10px;
     }
 
+    .nav1 .right li {
+        font-size: 18px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:300px) {
+
+    .featured {
+        height: 60vh;
+    }
+
+    .nav1 .left {
+        flex-basis: 50%;
+        letter-spacing: 3px;
+        font-size: 6px;
+    }
+
+    .right i {
+        font-size: 8px;
+        margin: 0px 1px;
+    }
+
+
+    .nav2 {
+        width: 100%;
+        height: 80px;
+        margin-bottom: 25px;
+    }
+
+    .nav2-left i {
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .nav2 .nav2-center h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .nav2 img {
+        width: 90px;
+    }
+
+    .nav2-right i {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #menubar {
+        top: 69%;
+    }
+
+    .featured-text h2 {
+        font-size: 16px;
+        left: 2px;
+
+    }
+
+    .featured button {
+        margin: 15% -23%;
+
+    }
 
 }
