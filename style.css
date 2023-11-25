@@ -539,7 +539,7 @@ footer i {
 }
 
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:320px) {
 
     .featured {
         height: 60vh;
